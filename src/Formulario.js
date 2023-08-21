@@ -27,7 +27,8 @@ return(
      </nav>
 
 
-<form action="https://formsubmit.co/tellomatias17@gmail.com" method="POST">
+<form  action="https://formspree.io/f/xjvqwyle"
+  method="POST">
   
      <input type="text" name="nombre" required    placeholder="Nombre" />
      <input type="text" name="apellido" required  placeholder="Apellido" />
