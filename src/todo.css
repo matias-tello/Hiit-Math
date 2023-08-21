@@ -1,0 +1,219 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background: linear-gradient(180deg, #000000 0%, #282c36 100%);
+    overflow-x: hidden;
+    color: #ffffff;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color:aliceblue;
+    
+}
+
+
+
+.todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    min-height: 100vh;
+
+}
+
+
+.logo{
+  
+  height: 210px;
+  width: 300px;
+  border-radius: 20px;
+  border: 1px solid darkgray;
+  animation: fadeInUp 1s ease-in-out;
+
+
+  /*  border-radius: 50%;
+    height: 205px;
+    width: 220px;*/
+    
+}
+
+
+
+h4 {
+    font-size: 1.5rem;
+    margin-top: 0.2rem;
+    color: #ffffff;
+    margin-top: 2%;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.titulo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us-buttons{
+    display: flex;
+   
+}
+
+.cont-formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin-top: 3%;
+    width: 50%;
+    height: 40px;
+    background-color: dodgerblue;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1976D2; /* Cambiar el color al hacer hover */
+    transform: scale(1.05); /* Aumentar el tamaño al hacer hover */
+    cursor: pointer;
+    box-shadow: 1px 1px 1px aliceblue;
+  }
+
+.btn-contacto{
+    color: aliceblue;
+}
+
+.btn-redes{
+    background-color: rgb(5, 110, 216);
+}
+
+.btn-nosotros{
+    background-color: rgb(5, 110, 216);
+    width: 150px;
+}
+
+footer{
+    height: 100px;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        background: linear-gradient(180deg, #000000 0%, #282c36 100%);
+        overflow-x: hidden;
+        color: #ffffff;
+    }
+
+    .todo {
+        padding: 2rem;
+    }
+
+    
+.about-us-buttons{
+    display: flex;
+    flex-direction: column;
+}
+   
+
+    h1 {
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        animation: fadeInUp 1s ease-in-out;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+        animation: fadeInUp 1s ease-in-out;
+    }
+
+    .cont-formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    button {
+        width: 100%;
+        max-width: 300px;
+        height: 50px;
+        background-color: #1976D2;
+        border: none;
+        border-radius: 25px;
+        color: white;
+        font-weight: bold;
+        margin: 10px 0;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+    button:hover {
+        background-color: #1565C0;
+        transform: scale(1.05);
+    }
+
+    .redes-sociales {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .redes-sociales button {
+        width: 150px;
+        height: 40px;
+        background-color: #1976D2;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        font-weight: bold;
+        margin: 5px 0;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+
+    .redes-sociales button:hover {
+        transform: scale(1.05);
+    }
+
+   
+}

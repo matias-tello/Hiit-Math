@@ -1,0 +1,101 @@
+/* conocenos.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #000000 0%, #282c36 100%);
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  .cont-conocenos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #1976D2;
+  }
+  
+  .historia-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .img-historia {
+    max-width: 50%;
+    height: auto;
+    margin-left: 20px;
+    box-shadow: 0px 4px 8px #1976D2;
+
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 45%;
+  }
+
+  span{
+    text-shadow: 2px 2px 2px #1976D2;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+    border-bottom: 2px solid #1976D2;
+  }
+  
+  .reseñas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .img-reseñas {
+    width: 40%;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .img-reseñas:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }
+  
+  /* Agrega tus estilos de animaciones aquí */
+  
+  @media (max-width: 768px) {
+    .historia-img {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .img-historia {
+      max-width: 100%;
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  
+    p {
+      max-width: 100%;
+    }
+  
+    .reseñas {
+      justify-content: center;
+    }
+  
+    .img-reseñas {
+      width: 45%;
+    }
+  }
+  
