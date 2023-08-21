@@ -14,7 +14,7 @@ return(
 
 <img src={servicioHiit} className="img-servicio" />
 
-<p>En este servicio vamos a enseñar al cliente, desde los fundamentos básicos de por qué y para que trabajamos de esta forma.
+<p className="descripcion-servicio"> En este servicio vamos a enseñar al cliente, desde los fundamentos básicos de por qué y para que trabajamos de esta forma.
 
 Vamos a realizar reportes y feedback continuos con el cliente para empaparnos de cada caso en concreto, así desarrollar la mejor estrategia para alcanzar los objetivos en la brevedad posible.<br/> <br/>
 
@@ -23,7 +23,7 @@ Garantizamos cambios con nuestros sistema , siempre que el compromiso por parte 
 Estamos a tu disposición para empezar tu cambio. <br/> <br/>
 
 <h3> PLAZAS LIMITADAS </h3>
-<span>20 plazas disponibles para poder dar el mejor servicio a cada uno de nuestros clientes</span>
+<span>20 plazas disponibles para poder dar el mejor servicio a cada uno de nuestros clientes</span>  <br/>
 
 Contactanos:  <button className="btn-form-servicio"><Link to="/formulario">Formulario</Link></button>    </p>
 

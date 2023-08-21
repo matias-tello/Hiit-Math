@@ -19,6 +19,7 @@ body {
     text-align: center;
     margin-bottom: 20px;
     border-bottom: 2px solid #1976D2;
+    color: aliceblue;
   }
   
   .historia-img {
@@ -40,6 +41,7 @@ body {
     font-size: 18px;
     line-height: 1.5;
     max-width: 45%;
+    color: aliceblue;
   }
 
   span{
@@ -58,10 +60,12 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
+    width: 100%;
   }
   
   .img-reseñas {
-    width: 40%;
+    width: auto;
+    height: auto;
     margin-bottom: 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
   }
@@ -92,10 +96,20 @@ body {
   
     .reseñas {
       justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
     }
   
     .img-reseñas {
-      width: 45%;
+      width: 250px;
+      height: 70px;
+    }
+
+    .img-reseñas:hover{
+      transform: scale(1.2);
+      transition: all 0.5s;
     }
   }
   

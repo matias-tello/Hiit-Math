@@ -14,11 +14,11 @@ function Conocenos() {
   return (
     <div className="cont-conocenos">
  
-<h1> Esta es nuestra historia </h1>
+<h1 className="titulo-historia"> Esta es nuestra historia </h1>
 
 <div className="historia-img">
 
-<p>
+<p className="historia">
 
 <span>HIIT MATH:</span>
 

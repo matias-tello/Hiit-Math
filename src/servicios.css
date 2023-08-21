@@ -10,6 +10,11 @@
 .cont-servicio h1 {
     animation: fadeInUp 1s ease-in-out;
     font-size: 28px;
+    color: aliceblue;
+}
+
+.descripcion-servicio{
+    color: aliceblue;
 }
 
 .img-servicio {
