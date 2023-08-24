@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { Link } from 'react-router-dom';
 import './todo.css';
-import logoBlanco from './logo-blanco.jpeg';
+
 import logoNegro from './logo-hiit-math-negro2.png';
 
 function Todo() {
@@ -41,10 +41,9 @@ function Todo() {
         <button onClick={toggleSocialButtons} className="btn-contacto">Contactanos</button>
         {showSocialButtons && (
           <div className="redes-sociales" ref={redesSocialesRef}>
-            <button className="btn-redes"><a href="#">Whatsapp</a></button>
-            <button className="btn-redes"><a href="#">Instagram</a></button>
-            <button className="btn-redes"><a href="#">Telegram</a></button>
-            <button className="btn-redes"><a href="#">Gmail</a></button>
+            <button className="btn-redes"><a href="https://wa.me/34692205356">Whatsapp</a></button>
+            <button className="btn-redes"><a href="https://instagram.com/personal_training88">Instagram</a></button>
+            <button className="btn-redes"><a href="mailto:hiitmath2023@gmail.com">Gmail</a></button>
           </div>
         )}
       </div>
