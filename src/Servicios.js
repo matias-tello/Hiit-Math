@@ -35,7 +35,7 @@ Contactanos:  <button className="btn-form-servicio"><Link to="/formulario">Formu
 
 
 <img src="https://1000marcas.net/wp-content/uploads/2019/12/logo-Paypal.png" className="img-pagos"/>
-<img src="https://assets.bitdegree.org/crypto/storage/media/coinbase-logo-big.o.png" className="img-pagos"/>
+<button>  <a href="https://www.paypal.me/matiastello17">  Nuestro Paypal </a> </button>
 
 </footer>
 

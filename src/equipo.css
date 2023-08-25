@@ -35,6 +35,7 @@ body {
     align-items: center;
     justify-content: center;
     animation: fadeInUp 1s ease-in-out;
+    
   }
   
   /* Estilos para las imágenes */
@@ -73,3 +74,16 @@ body {
     color: #555;
   }
   
+  .presentacion-jose h1{
+    color:#333;
+  }
+  .presentacion-jose p{
+    color: #333;
+  }
+
+  .presentacion-matias h1{
+    color: #333;
+  }
+  .presentacion-matias p{
+    color: #333;
+  }
